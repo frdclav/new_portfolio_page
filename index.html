@@ -14,22 +14,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         a {
             color: rgba(0, 0, 0, .5);
         }
-        
-        h1 {
+
+        h1,
+        h2 {
             font-family: 'Bungee Shade', sans-serif !important;
         }
     </style>
 </head>
 
-<body>
+<body style="overflow:hidden;">
     <!-- floting menu -->
-    <div class=" navbar  navbar-light bg-transparent " style="display:none;position: fixed; bottom: 5vh; right: 5vw" id="floating-nav">
-        <div class="collapse navbar-collapse m-auto " id="navbarTogglerDemo02" style="position: fixed; bottom: 10vh; right: 5vw">
+    <div class=" navbar  navbar-light bg-transparent " style="display:none;position: fixed; bottom: 5vh; right: 5vw"
+        id="floating-nav">
+        <div class="collapse navbar-collapse m-auto " id="navbarTogglerDemo02"
+            style="position: fixed; bottom: 10vh; right: 5vw">
             <ul class="navbar-nav text-center mt-2 mt-lg-0 ">
                 <li class="nav-item m-1">
                     <a class="nav-link " href="#first">Home</a>
@@ -45,10 +49,12 @@
                 </li>
             </ul>
         </div>
-        <button class="navbar-toggler mx-auto m-1 border-0" style="position: fixed; bottom: 5vh; right: 5vw" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    
-                  </button>
+        <button class="navbar-toggler mx-auto m-1 border-0" style="position: fixed; bottom: 5vh; right: 5vw"
+            type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
 
     </div>
 
@@ -71,16 +77,92 @@
                 </div>
             </div>
         </div>
-        <div class="bg-primary" style="height:100vh;" id="second"></div>
-        <div class="bg-warning" style="height:100vh;" id="third"></div>
-        <div class="bg-danger" style="height:100vh;" id="fourth"></div>
+        <div class="bg-light d-flex" style="height:100vh;" id="second">
+
+            <div class="jumbotron my-5 align-self-center container-fluid bg-transparent" style="height:100vh;">
+                <div class="container " style="max-height:80vh;overflow: auto;">
+                    <h2 class=" display-4 m-3 text-center">About Me</h1>
+
+                        <p class="lead">Lead Application Support Engineer at Adobe Advertising Cloud. Fan of Korean
+                            variety shows.
+                            Novice web developer.
+                        </p>
+                        <p>
+                            Francis Rodson D. Clavel is a technical support professional living and working in
+                            Oakland,
+                            CA.
+                            Originally from Pittsburg, CA, he studied at the University of California, Berkeley
+                            earning
+                            his BA in
+                            Cognitive Science in 2015. He started working as part
+                            of the Application Support Engineering team at Adobe Advertising Cloud (fka Tubemogul)
+                            in
+                            2015. There he
+                            serve as a remote member of the team, establishing a support system first in the
+                            company's
+                            New York
+                            office, then again at
+                            the company's London office before eventually returning to HQ in Emeryville, CA to
+                            become
+                            the team lead
+                            in 2018.</p>
+                        <p>While at Adobe, he continues to work with product, dev and client services teams to
+                            troubleshoot,
+                            escalate and resolve customer issues. He has helped cross-functional teams drive testing
+                            efforts for new
+                            product features, resolve data
+                            discrepancies between Adobe and 3rd party partners, and create data reporting workflows
+                            for
+                            high profile
+                            clients.</p>
+                        <p>As of September 2019, he is currently enrolled in the UC Berkeley Extension Full Stack
+                            Web
+                            Development
+                            Coding Bootcamp in Berkeley, CA.</p>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="bg-light" style="height:100vh;" id="third"></div>
+        <div class="bg-light d-flex" style="height:100vh;" id="fourth">
+            <div class="jumbotron jumbotron-fluid align-self-center container-fluid bg-transparent">
+                <div class="container ">
+                    <h2 class=" display-4 m-3 text-center">Contact Me</h1>
+
+                        <ul class="justify-content-center ">
+                            <li>
+                                email: <a href="mailto:frdclav@gmail.com">frdclav@gmail.com</a>
+                            </li>
+                            <li>linkedin: <a
+                                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BdMoqvHwrR6CRhBtvH8dL7Q%3D%3D">linkedin.com/in/francisrodsonclavel</a>
+                            </li>
+                            <li>instagram: @rodsonrodson</li>
+                            <li>twitch: <a href="https://www.twitch.tv/rodsonrodson">www.twitch.tv/rodsonrodson</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+
+
+
+
+        </div>
 
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 
